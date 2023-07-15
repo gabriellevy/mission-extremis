@@ -1,6 +1,7 @@
 import '../styles/App.css';
 import { useContext, useEffect } from 'react'
 import { MissionContexte } from '../ctxt/mission';
+import AffichagePjs from './AffichagePjs';
 
 function App() {
   const { mission } = useContext(MissionContexte)
@@ -12,8 +13,8 @@ function App() {
   return (
     <div className="principal">
       <div className="deroulementMission">
-        <div className="persosEnMission">
-        </div>
+        <AffichagePjs className="persosEnMission">
+        </AffichagePjs>
       </div>
     </div>
   );
