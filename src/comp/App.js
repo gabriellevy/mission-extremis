@@ -10,8 +10,11 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
-      <span mission={mission} />
+    <div className="principal">
+      <div className="deroulementMission">
+        <div className="persosEnMission">
+        </div>
+      </div>
     </div>
   );
 }
