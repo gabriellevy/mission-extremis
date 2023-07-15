@@ -1,6 +1,6 @@
 import React from 'react';
-import './index.css';
-import App from './App';
+import './styles/index.css';
+import App from './comp/App';
 import { createRoot } from 'react-dom/client';
 import { MissionProvider } from './ctxt/mission';
 
